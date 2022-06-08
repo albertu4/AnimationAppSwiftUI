@@ -26,7 +26,7 @@ struct ContentView: View {
                 CityAnimation(animation: show)
             }
             .ignoresSafeArea()
-            .background(show ? Color(red: 226/255, green: 176/255, blue: 184/255) : Color.black)
+            .background(show ? Color(red: 226/255, green: 176/255, blue: 184/255) : Color(red: 32/255, green: 32/255, blue: 32/255))
             .animation(.easeIn, value: show)
             .toolbar { AnimationToggle(animation: $show) }
         }

@@ -11,6 +11,10 @@
 		7456F5D5284FF84E00FC7D11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7456F5D4284FF84E00FC7D11 /* ContentView.swift */; };
 		7456F5D7284FF84F00FC7D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7456F5D6284FF84F00FC7D11 /* Assets.xcassets */; };
 		7456F5DA284FF84F00FC7D11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7456F5D9284FF84F00FC7D11 /* Preview Assets.xcassets */; };
+		7456F5E1284FFB7F00FC7D11 /* Aircraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7456F5E0284FFB7F00FC7D11 /* Aircraft.swift */; };
+		7456F5E3285020B300FC7D11 /* LinearAircraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7456F5E2285020B300FC7D11 /* LinearAircraft.swift */; };
+		7456F5E528502CB900FC7D11 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7456F5E428502CB900FC7D11 /* Cloud.swift */; };
+		7456F5E7285034A800FC7D11 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7456F5E6285034A800FC7D11 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		7456F5D4284FF84E00FC7D11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7456F5D6284FF84F00FC7D11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7456F5D9284FF84F00FC7D11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7456F5E0284FFB7F00FC7D11 /* Aircraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aircraft.swift; sourceTree = "<group>"; };
+		7456F5E2285020B300FC7D11 /* LinearAircraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearAircraft.swift; sourceTree = "<group>"; };
+		7456F5E428502CB900FC7D11 /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
+		7456F5E6285034A800FC7D11 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				7456F5D2284FF84E00FC7D11 /* AnimationAppSwiftUIApp.swift */,
 				7456F5D4284FF84E00FC7D11 /* ContentView.swift */,
+				7456F5E6285034A800FC7D11 /* City.swift */,
+				7456F5E0284FFB7F00FC7D11 /* Aircraft.swift */,
+				7456F5E428502CB900FC7D11 /* Cloud.swift */,
+				7456F5E2285020B300FC7D11 /* LinearAircraft.swift */,
 				7456F5D6284FF84F00FC7D11 /* Assets.xcassets */,
 				7456F5D8284FF84F00FC7D11 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7456F5E528502CB900FC7D11 /* Cloud.swift in Sources */,
 				7456F5D5284FF84E00FC7D11 /* ContentView.swift in Sources */,
+				7456F5E7285034A800FC7D11 /* City.swift in Sources */,
 				7456F5D3284FF84E00FC7D11 /* AnimationAppSwiftUIApp.swift in Sources */,
+				7456F5E3285020B300FC7D11 /* LinearAircraft.swift in Sources */,
+				7456F5E1284FFB7F00FC7D11 /* Aircraft.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

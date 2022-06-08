@@ -44,8 +44,7 @@ struct Cloud: View {
                 
                 path.addLine(to: CGPoint(x: nearLine, y: middle))
             }
-            .stroke(Color.blue, lineWidth: 2)
-            
+            .stroke(Color.white, lineWidth: 4)
         }
     }
 }

@@ -8,28 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var show = false
+    
     var body: some View {
-        VStack {
-            Cloud()
-                .frame(width: 50, height: 50)
-            HStack {
-                Cloud()
-                    .frame(width: 80, height: 80)
+        
+        NavigationView {
+            
+            VStack {
+                
+                ZStack {
+                    SkyAnimation(animation: show)
+                    AircraftAnimation(animation: show)
+                        .frame(width: 80, height: 150)
+                }
+                
                 Spacer()
-                Aircraft()
-            .frame(width: 100, height: 100)
-                Spacer()
+                CityAnimation(animation: show)
             }
-            HStack {
-                Spacer()
-                Cloud()
-                .frame(width: 40, height: 40)
-            }
-            Spacer()
-            City()
-                .frame(width: 360, height: 360)
+            .ignoresSafeArea()
+            .background(show ? Color(red: 226/255, green: 176/255, blue: 184/255) : Color.black)
+            .animation(.easeIn, value: show)
+            .toolbar { AnimationToggle(animation: $show) }
         }
-//        .background(Color(red: 226/255, green: 176/255, blue: 184/255))
     }
 }
 

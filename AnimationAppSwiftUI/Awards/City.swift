@@ -91,10 +91,8 @@ struct City: View {
                 path.addLine(to: CGPoint(x: size, y: size))
                 
             }
-            .stroke(lineWidth: 5)
-            
+            .fill(Color(red: 147/255, green: 105/255, blue: 105/255))
         }
-        
     }
 }
 

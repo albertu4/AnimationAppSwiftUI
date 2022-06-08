@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct Aircraft: View {
+    let color: Color
+    
     var body: some View {
         GeometryReader { geometry in
             let width = geometry.size.width
@@ -53,15 +55,14 @@ struct Aircraft: View {
                 path.addLine(to: CGPoint(x: nearLine, y: middle + longIntermediateLine))
                 path.addLine(to: CGPoint(x: longIntermediateLine, y: middle))
             }
-            .stroke(Color.green, lineWidth: 3)
-//            .fill(Color(red: 81/255, green: 155/255, blue: 200/255))
+            .fill(color)
         }
     }
 }
 
 struct Aircraft_Previews: PreviewProvider {
     static var previews: some View {
-        Aircraft()
+        Aircraft(color: Color(red: 81/255, green: 155/255, blue: 200/255))
             .frame(width: 200, height: 200)
     }
 }

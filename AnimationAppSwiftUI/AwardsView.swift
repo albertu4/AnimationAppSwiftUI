@@ -11,11 +11,16 @@ struct AwardsView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Sun()
-                Cloud(color: .blue)
-                Aircraft(color: .red)
-                City(color: .black)
+                HStack {
+                    Sun()
+                    Cloud(color: .blue)
+                }
+                HStack {
+                    Aircraft(color: .green)
+                    City(color: .black)
+                }
             }
+            .padding()
             .navigationTitle("Awards")
         }
     }

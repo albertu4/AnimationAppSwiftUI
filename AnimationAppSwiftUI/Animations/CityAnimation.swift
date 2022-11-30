@@ -12,7 +12,7 @@ struct CityAnimation: View {
     
     var body: some View {
         ZStack {
-            City()
+            City(color: .black)
                 .offset(y: animation ? 0 : +UIScreen.main.bounds.height)
                 .animation(.spring().delay(0.6), value: animation)
         }

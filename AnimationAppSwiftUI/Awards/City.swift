@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct City: View {
+    let color: Color
+    
     var body: some View {
-        
         GeometryReader { geometry in
             let width = geometry.size.width
             let height = geometry.size.height
@@ -38,11 +39,11 @@ struct City: View {
                 path.addLine(to: CGPoint(x: intermediateLine * 4, y: middle + intermediateLine * 2))
                 path.addLine(to: CGPoint(x: intermediateLine * 4, y: middle + longIntermediateLine))
                 path.addLine(to: CGPoint(x: longIntermediateLine - nearLine, y: middle + longIntermediateLine))
-                path.addLine(to: CGPoint(x: longIntermediateLine - nearLine, y: size - intermediateLine))
+                path.addLine(to: CGPoint(x: longIntermediateLine - nearLine, y: size - intermediateLine * 4))
                 
-                path.addLine(to: CGPoint(x: longIntermediateLine, y: size - intermediateLine))
                 path.addLine(to: CGPoint(x: longIntermediateLine, y: size - intermediateLine * 4))
-                path.addLine(to: CGPoint(x: longIntermediateLine + intermediateLine, y: size - intermediateLine * 4))
+                path.addLine(to: CGPoint(x: longIntermediateLine, y: size - longIntermediateLine))
+                path.addLine(to: CGPoint(x: longIntermediateLine + intermediateLine, y: size - longIntermediateLine))
                 path.addLine(to: CGPoint(x: longIntermediateLine + intermediateLine, y: middle + longIntermediateLine))
                 path.addLine(to: CGPoint(x: longIntermediateLine + nearLine * 3, y: middle + longIntermediateLine))
                 path.addLine(to: CGPoint(x: longIntermediateLine + nearLine * 3, y: size - intermediateLine * 2))
@@ -91,14 +92,13 @@ struct City: View {
                 path.addLine(to: CGPoint(x: size, y: size))
                 
             }
-            .fill(Color(red: 147/255, green: 105/255, blue: 105/255))
+            .stroke(lineWidth: 4)
         }
     }
 }
 
 struct City_Previews: PreviewProvider {
     static var previews: some View {
-        City()
-            .frame(width: 200, height: 200)
+        City(color: .gray)
     }
 }

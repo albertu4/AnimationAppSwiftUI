@@ -13,11 +13,11 @@ struct SkyView: View {
         
         VStack {
             Spacer()
-            Cloud()
+            Cloud(color: .blue)
                 .frame(width: 50, height: 50)
             
             HStack {
-                Cloud()
+                Cloud(color: .blue)
                     .frame(width: 80, height: 80)
                 Spacer()
                 Sun()
@@ -26,7 +26,7 @@ struct SkyView: View {
             
             HStack {
                 Spacer()
-                Cloud()
+                Cloud(color: .blue)
                 .frame(width: 100, height: 100)
             }
             

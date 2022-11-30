@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Cloud: View {
+    let color: Color
     
     var body: some View {
         GeometryReader { geometry in
@@ -44,14 +45,14 @@ struct Cloud: View {
                 
                 path.addLine(to: CGPoint(x: nearLine, y: middle))
             }
-            .stroke(Color.white, lineWidth: 4)
+            .stroke(color, lineWidth: 3)
         }
     }
 }
 
 struct Cloud_Previews: PreviewProvider {
     static var previews: some View {
-        Cloud()
+        Cloud(color: .blue)
             .frame(width: 200, height: 200)
     }
 }

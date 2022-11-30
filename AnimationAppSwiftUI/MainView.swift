@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MainView.swift
 //  AnimationAppSwiftUI
 //
 //  Created by Михаил Иванов on 08.06.2022.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
     @State private var show = false
     
     var body: some View {
@@ -26,7 +26,6 @@ struct ContentView: View {
                 CityAnimation(animation: show)
             }
             .ignoresSafeArea()
-            .background(show ? Color(red: 226/255, green: 176/255, blue: 184/255) : Color(red: 32/255, green: 32/255, blue: 32/255))
             .animation(.easeIn, value: show)
             .toolbar { AnimationToggle(animation: $show) }
         }
@@ -35,6 +34,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainView()
     }
 }

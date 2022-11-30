@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		74508C042850E8EF002C7054 /* AnimationToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74508C032850E8EF002C7054 /* AnimationToggle.swift */; };
 		7456F5D3284FF84E00FC7D11 /* AnimationAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7456F5D2284FF84E00FC7D11 /* AnimationAppSwiftUIApp.swift */; };
-		7456F5D5284FF84E00FC7D11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7456F5D4284FF84E00FC7D11 /* ContentView.swift */; };
+		7456F5D5284FF84E00FC7D11 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7456F5D4284FF84E00FC7D11 /* MainView.swift */; };
 		7456F5D7284FF84F00FC7D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7456F5D6284FF84F00FC7D11 /* Assets.xcassets */; };
 		7456F5DA284FF84F00FC7D11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7456F5D9284FF84F00FC7D11 /* Preview Assets.xcassets */; };
 		7456F5E1284FFB7F00FC7D11 /* Aircraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7456F5E0284FFB7F00FC7D11 /* Aircraft.swift */; };
@@ -17,6 +17,9 @@
 		7456F5E7285034A800FC7D11 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7456F5E6285034A800FC7D11 /* City.swift */; };
 		7456F5EB2850814500FC7D11 /* SkyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7456F5EA2850814500FC7D11 /* SkyView.swift */; };
 		7456F5ED285082EE00FC7D11 /* Sun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7456F5EC285082EE00FC7D11 /* Sun.swift */; };
+		74BACB6F28532C4C0010B349 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BACB6E28532C4C0010B349 /* StarterView.swift */; };
+		74BACB7128532F2E0010B349 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BACB7028532F2E0010B349 /* AwardsView.swift */; };
+		74BACB73285354B50010B349 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BACB72285354B50010B349 /* GradientRectangles.swift */; };
 		74EEBEE928508B9B003D37C8 /* SkyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EEBEE828508B9B003D37C8 /* SkyAnimation.swift */; };
 		74EEBEEB28508BAB003D37C8 /* CityAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EEBEEA28508BAB003D37C8 /* CityAnimation.swift */; };
 		74EEBEED28508BB8003D37C8 /* AircraftAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EEBEEC28508BB8003D37C8 /* AircraftAnimation.swift */; };
@@ -26,7 +29,7 @@
 		74508C032850E8EF002C7054 /* AnimationToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationToggle.swift; sourceTree = "<group>"; };
 		7456F5CF284FF84E00FC7D11 /* AnimationAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7456F5D2284FF84E00FC7D11 /* AnimationAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationAppSwiftUIApp.swift; sourceTree = "<group>"; };
-		7456F5D4284FF84E00FC7D11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7456F5D4284FF84E00FC7D11 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		7456F5D6284FF84F00FC7D11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7456F5D9284FF84F00FC7D11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7456F5E0284FFB7F00FC7D11 /* Aircraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aircraft.swift; sourceTree = "<group>"; };
@@ -34,6 +37,9 @@
 		7456F5E6285034A800FC7D11 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		7456F5EA2850814500FC7D11 /* SkyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyView.swift; sourceTree = "<group>"; };
 		7456F5EC285082EE00FC7D11 /* Sun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sun.swift; sourceTree = "<group>"; };
+		74BACB6E28532C4C0010B349 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		74BACB7028532F2E0010B349 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		74BACB72285354B50010B349 /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
 		74EEBEE828508B9B003D37C8 /* SkyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyAnimation.swift; sourceTree = "<group>"; };
 		74EEBEEA28508BAB003D37C8 /* CityAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityAnimation.swift; sourceTree = "<group>"; };
 		74EEBEEC28508BB8003D37C8 /* AircraftAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftAnimation.swift; sourceTree = "<group>"; };
@@ -70,7 +76,10 @@
 			isa = PBXGroup;
 			children = (
 				7456F5D2284FF84E00FC7D11 /* AnimationAppSwiftUIApp.swift */,
-				7456F5D4284FF84E00FC7D11 /* ContentView.swift */,
+				74BACB6E28532C4C0010B349 /* StarterView.swift */,
+				7456F5D4284FF84E00FC7D11 /* MainView.swift */,
+				74BACB7028532F2E0010B349 /* AwardsView.swift */,
+				74BACB72285354B50010B349 /* GradientRectangles.swift */,
 				7456F5EA2850814500FC7D11 /* SkyView.swift */,
 				74508C032850E8EF002C7054 /* AnimationToggle.swift */,
 				74EEBEEE28508BBC003D37C8 /* Animations */,
@@ -182,15 +191,18 @@
 			files = (
 				74508C042850E8EF002C7054 /* AnimationToggle.swift in Sources */,
 				7456F5E528502CB900FC7D11 /* Cloud.swift in Sources */,
-				7456F5D5284FF84E00FC7D11 /* ContentView.swift in Sources */,
+				7456F5D5284FF84E00FC7D11 /* MainView.swift in Sources */,
 				7456F5EB2850814500FC7D11 /* SkyView.swift in Sources */,
 				7456F5E7285034A800FC7D11 /* City.swift in Sources */,
 				74EEBEED28508BB8003D37C8 /* AircraftAnimation.swift in Sources */,
 				7456F5D3284FF84E00FC7D11 /* AnimationAppSwiftUIApp.swift in Sources */,
 				7456F5E1284FFB7F00FC7D11 /* Aircraft.swift in Sources */,
+				74BACB6F28532C4C0010B349 /* StarterView.swift in Sources */,
+				74BACB73285354B50010B349 /* GradientRectangles.swift in Sources */,
 				74EEBEEB28508BAB003D37C8 /* CityAnimation.swift in Sources */,
 				7456F5ED285082EE00FC7D11 /* Sun.swift in Sources */,
 				74EEBEE928508B9B003D37C8 /* SkyAnimation.swift in Sources */,
+				74BACB7128532F2E0010B349 /* AwardsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
